@@ -1,0 +1,19 @@
+#include<iostream.h>
+using namespace std;
+
+float Addition(float No1, float No2)
+{
+    float Ans = 0;
+    Ans = No1 + No2;
+    return Ans;
+}
+int main()
+{
+    float A= 10.90f;
+    float B = 11.60f;
+
+    cout<<Addition(A,B)<<"\n";
+    
+    return 0;
+
+}
